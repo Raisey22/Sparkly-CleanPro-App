@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SplarklyCleanProO</string>
+    <string name="worker">Worker</string>
+    <string name="customer">Customer</string>
+    <string name="book_here">Book Here</string>
+    <string name="your_name">Your Name</string>
+    <string name="select_date">Select Date</string>
+    <string name="book_now">Book Now</string>
+    <string name="time">Time</string>
+    <string name="choose">Choose Category</string>
+    <string name="find">Find Your Desired Cleaning Service</string>
+    <string name="search">Search Service</string>
+    <string name="menu">Menu</string>
+    <string name="residential">Residential</string>
+    <string name="commercial">Commercial</string>
+    <string name="worker_review">Worker Review</string>
+    <string name="very_disatisfied">Very Disatisfied</string>
+    <string name="enter_review">Enter Review</string>
+    <string name="select">Select Number of Rooms</string>
+    <string name="selec">Select Location</string>
+
+
+
+
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingForm"
+    android:background="#673AB7"
+    android:orientation="vertical">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Book Here"
+       android:textColor="@color/white"
+       android:textStyle="bold"
+       android:gravity="center_horizontal"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginVertical="20dp"
+       android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/bookingName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:hint="Your Name"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/bookingDate"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Select Date"
+        android:textColorHint="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/bookingTime"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:hint="Time (HH:MM AM/PM)"
+        android:minHeight="48dp" />
+
+ <com.google.android.material.textfield.TextInputLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="10dp"
+     android:hint="@string/select"
+     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+    <AutoCompleteTextView
+        android:id="@+id/auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="none"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/selec"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/auto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:layout_marginTop="10dp"
+            android:minHeight="48dp" />
+
+
+     <Button
+         android:id="@+id/bookNowButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:backgroundTint="#2196F3"
+         android:minHeight="48dp"
+         android:text="Book Now"
+         android:textSize="20dp" />
+
+
+
+</com.google.android.material.textfield.TextInputLayout>
+ </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+</LinearLayout>
